@@ -1,0 +1,143 @@
+.social-section {
+  height: 70px;
+  background-color: rgb(223, 225, 231);
+  display: flex;
+  flex: 1;
+  
+  
+  align-items: center;
+  justify-content: space-between;
+  border-top-color:rgb(135, 160, 160) ;
+  border-top-width: 1px;
+  position: fixed;
+  left: 2px;
+  right: 2px;
+  top: 60px;
+  border-radius: 12px;
+  border-top-style: solid;
+
+}
+.media {
+  position:relative;
+  
+}
+
+.facebook-logo {
+  width: 30px;
+  margin-left: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+.media .facebook-tooltip {
+  background-color: rgb(108, 110, 110);
+  position: absolute;
+  border-radius: 3px;
+  color: white;
+  left: 10px;
+  bottom: -30px ;
+  opacity: 0;
+}
+.media:hover .facebook-tooltip {
+  opacity: 1;
+  transition-duration: 0.6s;
+}
+
+
+
+.instagram-logo {
+  width: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+
+}
+.media .instagram-tooltip {
+  background-color: rgb(108, 110, 110);
+  position: absolute;
+  border-radius: 3px;
+  color: white;
+  left: 5px;
+  bottom: -30px ;
+  opacity: 0;
+  
+
+}
+.media:hover .instagram-tooltip {
+  opacity: 1;
+  transition-duration: 0.6s;
+}
+
+
+
+.instagram-logo:hover,
+.facebook-logo:hover,
+.phone-logo:hover,
+.twitter-logo:hover,
+.whatsapp-logo:hover{
+width: 32px;
+}
+
+.twitter-logo {
+  width: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.media .twitter-tooltip {
+  background-color: rgb(108, 110, 110);
+  position: absolute;
+  border-radius: 3px;
+  color: white;
+  left: 5px;
+  bottom: -30px ;
+  opacity: 0;
+  
+}
+.media:hover .twitter-tooltip {
+  opacity: 1;
+  transition-duration: 0.6s;
+}
+
+
+.whatsapp-logo {
+  width: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.media .whatsapp-tooltip {
+  background-color: rgb(108, 110, 110);
+  position: absolute;
+  border-radius: 3px;
+  color: white;
+  left: 5px;
+  bottom: -30px ;
+  opacity: 0;
+  
+}
+.media:hover .whatsapp-tooltip {
+ opacity: 1;
+ transition-duration: 0.6S;
+  
+}
+
+
+.phone-logo {
+  width: 30px;
+  margin-right: 12px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.media .call-tooltip {
+  background-color: rgb(108, 110, 110);
+  position: absolute;
+  border-radius: 3px;
+  color: white;
+  left: 5px;
+  bottom: -30px ;
+  opacity: 0;
+}
+.media:hover .call-tooltip {
+  opacity: 1;
+  transition-duration: 0.6s;
+}
