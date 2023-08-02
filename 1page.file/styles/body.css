@@ -1,0 +1,72 @@
+.body {
+  
+  padding-top: 220px;
+  left: 0;
+  right: 0;
+  ;
+
+}
+
+
+.wallpaper {
+  display: flex;
+  align-items: center;
+  bottom: 400px;
+  max-width: fit-content;
+  min-width: 830px;
+  margin-left: 0px;
+  
+}
+
+
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 400px;
+  bottom: 200px;
+}
+
+
+.words {
+  margin-left: 20px;
+  
+  font-family: arial;
+
+ 
+  
+  
+
+}
+.content {
+
+}
+
+.readmore {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: center;
+
+}
+.button {
+  height: 50px;
+  width: 200px;
+  margin-top: 160px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: rgb(231, 231, 231);
+  background-color: rgb(129, 148, 148);
+  font-family: 'roboto' arial;
+  font-weight: 40px;
+  font-size: 100%;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+button:hover {
+  color: rgb(237, 235, 241);
+  background-color: rgb(132, 160, 168);
+  text-decoration: none;
+}
